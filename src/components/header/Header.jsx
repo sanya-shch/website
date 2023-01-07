@@ -52,7 +52,7 @@ const Header = () => {
           </ul>
 
           <i
-            className="uil uil-times nav_close"
+            className="uil uil-times nav__close"
             onClick={() => showMenu((prev) => !prev)}
           ></i>
         </div>
