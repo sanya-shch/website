@@ -20,11 +20,19 @@ const Social = () => {
       </a>
 
       <a
-        href="https://sanya-shch.github.io/resume"
+        href="https://github.com/sanya-shch"
         className="home_social-icon"
         target="_blank"
       >
         <i className="uil uil-github-alt"></i>
+      </a>
+
+      <a
+        href="https://sanya-shch.github.io/resume"
+        className="home_social-icon"
+        target="_blank"
+      >
+        <i className="uil uil-file-download"></i>
       </a>
     </div>
   );

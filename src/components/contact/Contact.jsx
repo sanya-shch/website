@@ -9,12 +9,19 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // .sendForm(
+    //     "YOUR_SERVICE_ID",
+    //     "YOUR_TEMPLATE_ID",
+    //     form.current,
+    //     "YOUR_PUBLIC_KEY"
+    //   )
+
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_84uu66a",
+        "template_5clx6sd",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "r6LNMPek-xBfuaqhH"
       )
       .then(
         (result) => {
