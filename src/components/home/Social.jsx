@@ -32,7 +32,7 @@ const Social = () => {
         className="home_social-icon"
         target="_blank"
       >
-        <i className="uil uil-file-download"></i>
+        <i className="uil uil-file"></i>
       </a>
     </div>
   );

@@ -3,12 +3,12 @@ import React, { useState } from "react";
 import "./header.css";
 
 const NAV_LIST = [
-  { name: "Home", id: "home" },
-  { name: "About", id: "about" },
-  { name: "Skills", id: "skills" },
-  { name: "Experience", id: "experience" },
-  { name: "Portfolio", id: "portfolio" },
-  { name: "Contact", id: "contact" },
+  { name: "Home", id: "home", icon: "uil-estate" },
+  { name: "About", id: "about", icon: "uil-user" },
+  { name: "Skills", id: "skills", icon: "uil-file-alt" },
+  { name: "Qualification", id: "qualification", icon: "uil-briefcase-alt" },
+  { name: "Portfolio", id: "portfolio", icon: "uil-scenery" },
+  { name: "Contact", id: "contact", icon: "uil-message" },
 ];
 
 const Header = () => {
@@ -42,7 +42,7 @@ const Header = () => {
                       : "nav__link"
                   }
                 >
-                  <i className="uil uil-estate nav__icon"></i> {nav.name}
+                  <i className={`uil ${nav.icon} nav__icon`}></i> {nav.name}
                 </a>
               </li>
             ))}

@@ -54,6 +54,11 @@
   align-items: center;
 }
 
+/*=============== COMMON ===============*/
+.bold {
+  font-weight: var(--font-semi-bold);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

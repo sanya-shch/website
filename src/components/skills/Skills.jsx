@@ -3,10 +3,10 @@ import React from "react";
 import "./skills.css";
 
 const SKILLS_LIST = [
-  { skillName: "HTML", number: 3 },
-  { skillName: "CSS", number: 3 },
   { skillName: "JavaScript", number: 4 },
   { skillName: "React.js", number: 4 },
+  { skillName: "HTML", number: 4 },
+  { skillName: "CSS", number: 3 },
   { skillName: "TypeScript", number: 2 },
   { skillName: "Node.js", number: 3 },
   { skillName: "React Native", number: 1 },
