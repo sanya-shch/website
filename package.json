@@ -2,6 +2,7 @@
   "name": "resume_2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sanya-shch.github.io/website/",
   "dependencies": {
     "@emailjs/browser": "3.10.0",
     "react": "17.0.2",
