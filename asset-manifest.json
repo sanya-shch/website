@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.605cd339.css",
+    "main.js": "/website/static/js/main.df2bbc50.js",
+    "static/media/Oleksandr_Shchipkov_resume.pdf": "/website/static/media/Oleksandr_Shchipkov_resume.0e09b98ffe6f04f34083.pdf",
+    "static/media/avatar.png": "/website/static/media/avatar.5baca50e931e8c207990.png",
+    "static/media/hand.svg": "/website/static/media/hand.330b49cc7cd3bedaa20e738eb0d42fc1.svg",
+    "index.html": "/website/index.html",
+    "main.605cd339.css.map": "/website/static/css/main.605cd339.css.map",
+    "main.df2bbc50.js.map": "/website/static/js/main.df2bbc50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.605cd339.css",
+    "static/js/main.df2bbc50.js"
+  ]
+}
