@@ -7,7 +7,7 @@ const NAV_LIST = [
   { name: "About", id: "about", icon: "uil-user" },
   { name: "Skills", id: "skills", icon: "uil-file-alt" },
   { name: "Qualification", id: "qualification", icon: "uil-briefcase-alt" },
-  { name: "Portfolio", id: "portfolio", icon: "uil-scenery" },
+  // { name: "Portfolio", id: "portfolio", icon: "uil-scenery" },
   { name: "Contact", id: "contact", icon: "uil-message" },
 ];
 
